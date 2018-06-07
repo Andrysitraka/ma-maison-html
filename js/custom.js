@@ -1854,5 +1854,10 @@ $(document).ready(function() {
     }
 
 });
+/* fuction forcotroller page momcompte */
+function ShowHideDiv(chkPassport) {
+    var dvPassport = document.getElementById("dvPassport");
+    dvPassport.style.display = chkPassport.checked ? "block" : "none";
+}
 
 
