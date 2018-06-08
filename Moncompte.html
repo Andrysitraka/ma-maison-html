@@ -17,7 +17,6 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
     <!--start header section header v1-->
     <header id="header-section" class="header-section-4 nav-left hidden-sm hidden-xs" data-sticky="1">
@@ -55,7 +54,8 @@
             </div>
             <div class="header-right">
                 <div class="user">
-                    <a href="#" data-toggle="modal" data-target="#pop-login">Se connecter / Créer un compte</a>
+                    <a href="#" >Se connecter </a>
+                    <a href="#" >Créer un compte</a>
                     <a href="add-new-property.html" class="btn btn-default">Publier votre propriété</a>
                 </div>
             </div>
@@ -82,112 +82,7 @@
     <!--end header section header v1-->
 	
 	<!-- popup start -->
-		 <div class="modal fade" id="pop-login" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <ul class="login-tabs">
-                        <li class="active">Se connecter</li>
-                        <li>S'enregistrer</li>
-                    </ul>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
 
-                </div>
-                <div class="modal-body login-block">
-                    <div class="tab-content">
-                        <div class="tab-pane fade in active">
-                            <div class="message">
-                                <p class="error text-danger"><i class="fa fa-close"></i> Vous n'êtes pas Connectés</p>
-                                <p class="success text-success"><i class="fa fa-check"></i> Vous n'êtes pas Connectés</p>
-                            </div>
-                            <form>
-                                <div class="form-group field-group">
-                                    <div class="input-user input-icon">
-                                        <input placeholder="Utilisateur">
-                                    </div>
-                                    <div class="input-email input-icon">
-                                        <input placeholder="Adresse E-mail">
-                                    </div>
-                                </div>
-                                <div class="forget-block clearfix">
-                                    <div class="form-group pull-left">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox">
-                                                Se souvenir de moi
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group pull-right">
-                                        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#pop-reset-pass">Mots de passe oublié</a>
-                                    </div>
-                                </div>
-
-                                <div class="btn btn-primary btn-block">Se connecter</div>
-                            </form>
-                            <hr>
-                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
-                        </div>
-                        <div class="tab-pane fade">
-                            <form>
-                                <div class="form-group field-group">
-                                    <div class="input-user input-icon">
-                                        <input placeholder="Utilisateur">
-                                    </div>
-									
-                                    <div class="input-email input-icon">
-                                        <input placeholder="Adresse E-mail">
-                                    </div> 
-									<div class="input-mdp input-icon">
-                                        <input placeholder="Mots de passe">
-                                    </div> 
-									<div class="input-cmdp input-icon">
-                                        <input placeholder="confirmé le mots de passe">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox">
-                                            Je suis d'accord avec vos <a href="#"> termes et conditions.</a>.
-                                        </label>
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary btn-block">S'inscrire</button>
-                            </form>
-                            <hr>
-
-                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i>Se connecter avec facebook</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	
-<div class="modal fade" id="pop-reset-pass" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-header">
-                <ul class="login-tabs">
-                    <li class="active">Réinitialiser le mot de passe</li>
-                </ul>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
-            </div>
-            <div class="modal-body">
-                <p>Veuillez saisir votre identifiant ou adresse mail. Vous recevrez un lien pour créer un nouveau mot de passe par e-mail.</p>
-                <form>
-                    <div class="form-group">
-                        <div class="input-user input-icon">
-                            <input placeholder="Entrer votre nom d'utilisateur ou votre email" class="form-control">
-                        </div>
-                    </div>
-                    <button class="btn btn-primary btn-block">Obtenir un nouveau mot de passe</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 	<!-- popup end -->
 
    <section class="advanced-search advance-search-header">
@@ -683,6 +578,7 @@
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
+
                                                 <label for="lastname">Prénom</label>
                                                 <input type="text" id="lastname" class="form-control" placeholder="Prénom de l'utilisateur">
                                             </div>
@@ -725,14 +621,10 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="form-group">
-                                        <label for="twitter">Twitter URL</label>
-                                        <input type="text" id="twitter" class="form-control" placeholder="Entrer votre twitter ou votre page">
+                                        <label for="linkdin">Linkdin URL</label>
+                                        <input type="text" id="linkdin" class="form-control" placeholder="Entrer votre linkdin ou votre page">
                                     </div>
                                 </div>
-                               
-                                
-                                
-                               
                                 <div class="col-sm-12 col-xs-12 text-right">
                                     <button type="submit" class="btn btn-primary">Enregistrer</button>
                                 </div>
