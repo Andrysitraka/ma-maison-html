@@ -370,43 +370,57 @@
                                     <div class="advanced-search">
                                         <form>
                                             <div class="row">
-                                                <div class="col-md-6 col-sm-5">
+                                                <div class="col-md-3 col-sm-3">
                                                     <div class="form-group no-margin">
                                                         <div class="input-search input-icon">
-                                                            <input type="text" class="form-control" value="" name="keyword" placeholder="Entrer un adresse, ville, rue,...">
+                                                            <input type="text" class="form-control" value="" name="keyword" placeholder="Entrer un lieu, une adresse...">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-sm-7">
+                                                <div class="col-md-9 col-sm-9">
                                                     <div class="row">
-                                                        <div class="col-sm-3 col-xs-12">
+                                                        <div class="col-sm-2 col-xs-12">
                                                             <div class="form-group no-margin">
                                                                 <select name="location" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
-                                                                    <option value="">Ville</option>
-                                                                    <option value="chicago">Antsirabe</option>
-                                                                    <option value="los-angeles">Fianarantsoa</option>
-                                                                    <option value="miami">Vangaihidrano</option>
-                                                                    <option value="new-york">Ranomafana</option>
+                                                                    <option value="">Régions</option>
+                                                                    <option value="chicago">Antananarivo</option>
+                                                                    <option value="los-angeles">Mahajanga</option>
+                                                                    <option value="miami">Toamasina</option>
+                                                                    <option value="new-york">Diego</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-xs-12">
+                                                            <div class="form-group no-margin">
+                                                                <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                                                    <option value="">Villes</option>
+                                                                    <option value="beverly-hills">Mahamasina</option>
+                                                                    <option value="brickell">Ankadifotsy</option>
+                                                                    <option value="brickyard">Analakely</option>
+                                                                    <option value="bronx">Andravoangy</option>
+                                                                    <option value="brooklyn">Barika Dimy</option>
                                                                 </select>
                                                             </div>
                                                         </div>
                                                         <div class="col-sm-3 col-xs-12">
                                                             <div class="form-group no-margin">
                                                                 <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
-                                                                    <option value="">Secteur</option>
-                                                                    <option value="beverly-hills">Manakara</option>
-                                                                    <option value="brickell">Brickaville</option>
-                                                                    <option value="brickyard">Antsapanana</option>
-                                                                    <option value="bronx">Moramanga</option>
-                                                                    <option value="brooklyn">Ambositra</option>
+                                                                    <option value="">Quartiers</option>
+                                                                    <option value="beverly-hills">Mahamasina</option>
+                                                                    <option value="brickell">Ankadifotsy</option>
+                                                                    <option value="brickyard">Analakely</option>
+                                                                    <option value="bronx">Andravoangy</option>
+                                                                    <option value="brooklyn">Barika Dimy</option>
                                                                 </select>
                                                             </div>
                                                         </div>
-                                                        <div class="col-sm-3 col-xs-6 text-center">
-                                                            <button class="advance-btn btn" type="button"><i class="fa fa-gear"></i>Avance</button>
+                                                        <div class="col-sm-2 col-xs-6 text-center">
+                                                            <button class="advance-btn btn" type="button">
+                                                                <i class="fa fa-gear"></i> Avancée</button>
                                                         </div>
                                                         <div class="col-sm-3 col-xs-6">
-                                                            <button type="submit" class="btn btn-secondary btn-block"><i class="fa fa-search"></i> Chercher</button>
+                                                            <button type="submit" class="btn btn-secondary btn-block">
+                                                                <i class="fa fa-search"></i>Rechercher</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -415,51 +429,46 @@
                                                 <div class="row">
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
-                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Catégorie">
-                                                                <option>Statu 1</option>
-                                                                <option>Statu 2</option>
-                                                                <option>Statu 3</option>
-                                                                <option>Statu 4</option>
-                                                                <option>Statu 5</option>
+                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Catégories">
+                                                                <option>Appartement</option>
+                                                                <option>Maison familiale</option>
+                                                                <option>Studio</option>
+                                                                <option>Villa</option>
+                                                                <option>Propriétés commerciales</option>
+                                                                <option>Terrains </option>
                                                             </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
-                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title=" Caractéristiques générales">
-                                                                <option>Propriété  1</option>
-                                                                <option>Propriété  2</option>
-                                                                <option>Propriété  3</option>
-                                                                <option>Propriété  4</option>
-                                                                <option>Propriété  5</option>
+                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Caractéristiques générales">
+                                                                <option>1er plan</option>
+                                                                <option>2ème plan avec accès voiture</option>
+                                                                <option>2ème plan avec accès moto</option>
+                                                                <option>2ème plan accès piéton</option>
                                                             </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
                                                             <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Caractéristiques extérieures">
-                                                                <option>01</option>
-                                                                <option>02</option>
-                                                                <option>03</option>
-                                                                <option>04</option>
-                                                                <option>05</option>
+                                                                <option>Avec garage</option>
+                                                                <option>Avec cour</option>
                                                             </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
                                                             <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Caractéristiques intérieures">
-                                                                <option>01</option>
-                                                                <option>02</option>
-                                                                <option>03</option>
-                                                                <option>04</option>
-                                                                <option>05</option>
+                                                                <option>WC intérieur</option>
+                                                                <option>Douche intérieur</option>
+                                                                <option>Cuisine</option>
                                                             </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
-                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title=" Nombres de pièces min">
+                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Nombres de pièces min">
                                                                 <option>1</option>
                                                                 <option>2</option>
                                                                 <option>3</option>
@@ -484,25 +493,27 @@
                                                             <div class="range-text">
                                                                 <input type="hidden" class="min-price-range-hidden range-input" readonly>
                                                                 <input type="hidden" class="max-price-range-hidden range-input" readonly>
-                                                                <p><span class="range-title">Échelle de prix</span> de <span class="min-price-range"></span> à <span class="max-price-range"></span></p>
+                                                                <p>
+                                                                    <span class="range-title">Échelle des prix:</span> de
+                                                                    <span class="min-price-range"></span> à
+                                                                    <span class="max-price-range"></span>
+                                                                </p>
                                                             </div>
                                                             <div class="range-wrap">
                                                                 <div class="price-range-advanced"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12 col-xs-12 features-list">
-
-                                                        <label class="text-uppercase title">Autres caractéristiques</label>
-                                                        <div class="clearfix"></div>
-                                                        <label class="checkbox-inline">
-                                                            <input type="checkbox" value="option1"> Sans frais de visite
-                                                        </label>
-                                                        <label class="checkbox-inline">
-                                                            <input type="checkbox" value="option2"> Avec frais de visite
-                                                        </label>
-                                                       
-                                                    </div>
+                                                    <!--<div class="col-sm-12 col-xs-12 features-list">
+                                                            <label class="text-uppercase title">Autres caractéristiques</label>
+                                                            <div class="clearfix"></div>
+                                                            <label class="checkbox-inline">
+                                                                <input type="checkbox" value="option1"> Sans frais de visite
+                                                            </label>
+                                                            <label class="checkbox-inline">
+                                                                <input type="checkbox" value="option2"> Avec frais de visite
+                                                            </label>
+                                                        </div>-->
                                                 </div>
                                             </div>
                                         </form>
@@ -512,58 +523,57 @@
                                     <div class="advanced-search">
                                         <form>
                                             <div class="row">
-                                                <div class="col-md-6 col-sm-5">
+                                                <div class="col-md-3 col-sm-3">
                                                     <div class="form-group no-margin">
                                                         <div class="input-search input-icon">
-                                                            <input type="text" class="form-control" value="" name="keyword" placeholder="Entrer un adresse, ville, rue,...">
+                                                            <input type="text" class="form-control" value="" name="keyword" placeholder="Entrer un lieu, une adresse...">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-sm-7">
+                                                <div class="col-md-9 col-sm-9">
                                                     <div class="row">
-                                                        <div class="col-sm-3 col-xs-12">
+                                                        <div class="col-sm-2 col-xs-12">
                                                             <div class="form-group no-margin">
-                                                                <select name="location" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins" title="ville">
-                                                                    <option value="">Toutes les villes</option>
+                                                                <select name="location" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                                                    <option value="">Régions</option>
                                                                     <option value="chicago">Antananarivo</option>
-                                                                    <option value="los-angeles">Antsirabe</option>
-                                                                    <option value="miami">Diego</option>
-                                                                    <option value="new-york">Farafangana</option>
+                                                                    <option value="los-angeles">Mahajanga</option>
+                                                                    <option value="miami">Toamasina</option>
+                                                                    <option value="new-york">Diego</option>
                                                                 </select>
                                                             </div>
                                                         </div>
-
+                                                        <div class="col-sm-2 col-xs-12">
+                                                            <div class="form-group no-margin">
+                                                                <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                                                    <option value="">Villes</option>
+                                                                    <option value="beverly-hills">Mahamasina</option>
+                                                                    <option value="brickell">Ankadifotsy</option>
+                                                                    <option value="brickyard">Analakely</option>
+                                                                    <option value="bronx">Andravoangy</option>
+                                                                    <option value="brooklyn">Barika Dimy</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
                                                         <div class="col-sm-3 col-xs-12">
                                                             <div class="form-group no-margin">
-
-                                                                <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins" title="secteur">
-                                                                    <option value="">Toutes les zones</option>
+                                                                <select name="area" class="selectpicker bs-select-hidden" data-live-search="false" data-live-search-style="begins">
+                                                                    <option value="">Quartiers</option>
                                                                     <option value="beverly-hills">Mahamasina</option>
-                                                                    <option value="brickell">Analakely</option>
-                                                                    <option value="brickyard">Besarety</option>
-                                                                    <option value="bronx">Andravohangy</option>
-                                                                    <option value="brooklyn">Ampasapiito</option>
-                                                                    <option value="coconut-grove">Akadimbahoka</option>
-                                                                    <option value="downtown">Andrepamaky</option>
-                                                                    <option value="eagle-rock">Amboanjobe</option>
-                                                                    <option value="englewood">Ankarobato</option>
-                                                                    <option value="hermosa">Ankasina</option>
-                                                                    <option value="hollywood">Ampitatafika</option>
-                                                                    <option value="lincoln-park">Itaosy</option>
-                                                                    <option value="manhattan">Ankatso</option>
-                                                                    <option value="midtown">Ampasika</option>
-                                                                    <option value="queens">Keniheny</option>
-                                                                    <option value="westwood">Ambatolampy</option>
-                                                                    <option value="wynwood">Ibity</option>
+                                                                    <option value="brickell">Ankadifotsy</option>
+                                                                    <option value="brickyard">Analakely</option>
+                                                                    <option value="bronx">Andravoangy</option>
+                                                                    <option value="brooklyn">Barika Dimy</option>
                                                                 </select>
                                                             </div>
                                                         </div>
-
-                                                        <div class="col-sm-3 col-xs-6 text-center">
-                                                            <button class="advance-btn btn" type="button"><i class="fa fa-gear"></i> Avance</button>
+                                                        <div class="col-sm-2 col-xs-6 text-center">
+                                                            <button class="advance-btn btn" type="button">
+                                                                <i class="fa fa-gear"></i> Avancée</button>
                                                         </div>
                                                         <div class="col-sm-3 col-xs-6">
-                                                            <button type="submit" class="btn btn-secondary btn-block"><i class="fa fa-search"></i> Chercher</button>
+                                                            <button type="submit" class="btn btn-secondary btn-block">
+                                                                <i class="fa fa-search"></i>Rechercher</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -572,45 +582,40 @@
                                                 <div class="row">
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
-                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="catégories">
-                                                                <option>catégories 1</option>
-                                                                <option>catégories 2</option>
-                                                                <option>catégories 3</option>
-                                                                <option>catégories 4</option>
-                                                                <option>catégories 5</option>
+                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Catégories">
+                                                                <option>Appartement</option>
+                                                                <option>Maison familiale</option>
+                                                                <option>Studio</option>
+                                                                <option>Villa</option>
+                                                                <option>Propriétés commerciales</option>
+                                                                <option>Terrains </option>
                                                             </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
                                                             <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Caractéristiques générales">
-                                                                <option>Propriété  1</option>
-                                                                <option>Propriété  2</option>
-                                                                <option>Propriété  3</option>
-                                                                <option>Propriété  4</option>
-                                                                <option>Propriété  5</option>
+                                                                <option>1er plan</option>
+                                                                <option>2ème plan avec accès voiture</option>
+                                                                <option>2ème plan avec accès moto</option>
+                                                                <option>2ème plan accès piéton</option>
                                                             </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
                                                             <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Caractéristiques extérieures">
-                                                                <option>01</option>
-                                                                <option>02</option>
-                                                                <option>03</option>
-                                                                <option>04</option>
-                                                                <option>05</option>
+                                                                <option>Avec garage</option>
+                                                                <option>Avec cour</option>
                                                             </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
                                                             <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Caractéristiques intérieures">
-                                                                <option>01</option>
-                                                                <option>02</option>
-                                                                <option>03</option>
-                                                                <option>04</option>
-                                                                <option>05</option>
+                                                                <option>WC intérieur</option>
+                                                                <option>Douche intérieur</option>
+                                                                <option>Cuisine</option>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -627,7 +632,7 @@
                                                     </div>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <div class="form-group">
-                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title=" Nombre de pièces max">
+                                                            <select class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Nombre de pièces max">
                                                                 <option>1</option>
                                                                 <option>2</option>
                                                                 <option>3</option>
@@ -641,25 +646,27 @@
                                                             <div class="range-text">
                                                                 <input type="hidden" class="min-price-range-hidden range-input" readonly>
                                                                 <input type="hidden" class="max-price-range-hidden range-input" readonly>
-                                                                <p><span class="range-title">Échelle des prix:</span> de <span class="min-price-range"></span> à <span class="max-price-range"></span></p>
+                                                                <p>
+                                                                    <span class="range-title">Échelle des prix:</span> de
+                                                                    <span class="min-price-range"></span> à
+                                                                    <span class="max-price-range"></span>
+                                                                </p>
                                                             </div>
                                                             <div class="range-wrap">
                                                                 <div class="price-range-advanced"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12 col-xs-12 features-list">
-
-                                                        <label class="text-uppercase title">Autres caractéristiques</label>
-                                                        <div class="clearfix"></div>
-                                                        <label class="checkbox-inline">
-                                                            <input type="checkbox" value="option1"> Sans frais de visite
-                                                        </label>
-                                                        <label class="checkbox-inline">
-                                                            <input type="checkbox" value="option2"> Avec frais de visite
-                                                        </label>
-                                                        
-                                                    </div>
+                                                    <!--<div class="col-sm-12 col-xs-12 features-list">
+                                                             <label class="text-uppercase title">Autres caractéristiques</label>
+                                                            <div class="clearfix"></div>
+                                                            <label class="checkbox-inline">
+                                                                <input type="checkbox" value="option1"> Sans frais de visite
+                                                            </label>
+                                                            <label class="checkbox-inline">
+                                                                <input type="checkbox" value="option2"> Avec frais de visite
+                                                            </label>
+                                                        </div>-->
                                                 </div>
                                             </div>
                                         </form>
