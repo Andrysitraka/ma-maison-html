@@ -623,6 +623,51 @@
                             </div>
                             <div class="add-tab-row push-padding-bottom">
                                 <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <label for="categories">Catégories</label>
+                                            <select class="selectpicker" id="categories" data-live-search="false" data-live-search-style="begins" title="Catégories">
+                                                <option>Appartement</option>
+                                                <option>Maison familiale</option>
+                                                <option>Studio</option>
+                                                <option>Villa</option>
+                                                <option>Propriétés commerciales</option>
+                                                <option>Terrains</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <label for="caracteristiques generales">Générales</label>
+                                            <select class="selectpicker" id="caracteristiques generales" data-live-search="false" data-live-search-style="begins" title="caracteristiques generales">
+                                                <option>1er plan</option>
+                                                <option>2ème plan avec accès voiture</option>
+                                                <option>2ème plan avec accès moto</option>
+                                                <option>2ème plan accès piéton</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <label for="caracteristiques exterieures">Extérieures</label>
+                                            <select class="selectpicker" id="caracteristiques exterieures" data-live-search="false" data-live-search-style="begins" title="caracteristiques exterieures">
+                                                <option>Avec garage</option>
+                                                <option>Avec cour</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <label for="caracteristiques interieures">Intérieures</label>
+                                            <select class="selectpicker" id="caracteristiques interieures" data-live-search="false" data-live-search-style="begins" title="caracteristiques interieures">
+                                                <option>WC intérieure</option>
+                                                <option>Douche intérieure</option>
+                                                <option>Cuisine</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--<div class="row">
                                     <div class="col-sm-4">
                                         <div class="form-group">
                                             <label for="property-type">Type</label>
@@ -647,28 +692,28 @@
                                             </select>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="add-tab-row push-padding-bottom">
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <div class="form-group">
                                             <label for="property-price">Prix ​​de l'immobilier</label>
-                                            <input class="form-control" id="property-price" placeholder="Entrez votre titre de propriété">
+                                            <input class="form-control" id="property-price" placeholder="Entrez votre prix">
                                         </div>
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="form-group">
-                                            <label for="property-price-before">Avant l'étiquette de prix</label>
-                                            <input class="form-control" id="property-price-before" placeholder="Entrez votre titre de propriété">
+                                            <label for="property-price-before">Nombre de pièces</label>
+                                            <input class="form-control" id="property-price-before" placeholder="Entrez un nombre">
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <!--<div class="col-sm-4">
                                     <div class="form-group">
                                         <label for="property-price-after">Après l'étiquette de prix</label>
                                         <input class="form-control" id="property-price-after" placeholder="Entrez votre titre de propriété">
                                     </div>
-                                </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -748,28 +793,28 @@
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="address">Adresse</label>
-                                            <input class="form-control" id="address" placeholder="Entrez votre titre de propriété">
+                                            <input class="form-control" id="address" placeholder="Entrez une adresse">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <label for="neighborhood">quartier</label>
-                                            <input class="form-control" id="neighborhood" placeholder="Entrez votre titre de propriété">
+                                            <label for="region">Région</label>
+                                            <input class="form-control" id="region" placeholder="Entrez une région">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <label for="city">Ville</label>
-                                            <input class="form-control" id="city" placeholder="Entrez votre titre de propriété">
+                                            <label for="quartier">Quartier</label>
+                                            <input class="form-control" id="quartier" placeholder="Entrez un quartier">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <label for="zip">Zip</label>
-                                            <input class="form-control" id="zip" placeholder="Entrez votre titre de propriété">
+                                            <label for="ville">Ville</label>
+                                            <input class="form-control" id="ville" placeholder="Entrez une ville">
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <!--<div class="col-sm-6">
                                         <div class="form-group">
                                             <label for="countryState">Etats / Pays</label>
                                             <input class="form-control" id="countryState" placeholder="Entrez votre titre de propriété">
@@ -782,10 +827,10 @@
                                                 <option>Pays 1</option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
-                            <div class="add-tab-row">
+                            <!--<div class="add-tab-row">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div id="map">
@@ -804,10 +849,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
-                    <div class="account-block">
+                    <!--<div class="account-block">
                         <div class="add-title-tab">
                             <h3>Emplacement de la propriété</h3>
                             <div class="add-expand"></div>
@@ -986,7 +1031,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="account-block">
                         <div class="add-title-tab">
                             <h3>Vidéo de propriété</h3>
@@ -1016,7 +1061,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="account-block">
+                    <!--<div class="account-block">
                         <div class="add-title-tab">
                             <h3>Plans d'étage</h3>
                             <div class="add-expand"></div>
@@ -1338,7 +1383,7 @@
                                 </table>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="account-block">
                         <div class="add-title-tab">
                             <h3>Attachement</h3>
@@ -1381,7 +1426,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="account-block">
+                    <!--<div class="account-block">
                         <div class="add-title-tab">
                             <h3>Informations sur l'agent</h3>
                             <div class="add-expand"></div>
@@ -1418,7 +1463,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="account-block text-right">
                         <button class="btn btn-primary">Envoyer la propriété</button>
                     </div>
