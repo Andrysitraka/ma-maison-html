@@ -3866,7 +3866,7 @@ h4 {
 .header-section-4 .navi > ul > li > a {
   line-height: 90px;
   color: #004274;
-  border: 1px solid transparent;
+  /*border: 1px solid transparent;*/
   border-top: 0;
   border-bottom: 0;
 }
@@ -15116,4 +15116,19 @@ label.success {
   margin-left: 5px;
   /* margin-top: 5px; */
   margin-bottom: 5px;
+}
+.menumbil{
+  position: absolute;
+  color: #959595;
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  padding-right: 18px;
+}
+.contenaire-login
+{
+  background: white;width: 100%;border-radius:2px;height: 70px;
 }
