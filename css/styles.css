@@ -3823,7 +3823,7 @@ h4 {
 }
 .header-section-4 .header-left {
   float: left;
-  width: 40%;
+  width: 60%;
   /* mini phones and down */
 }
 .header-section-4 .header-left .navi {
@@ -3833,7 +3833,7 @@ h4 {
 
 .header-section-4 .header-right {
   float: right;
-  width: 50%;
+  width: 40%;
   /* mini phones and down */
 }
 .header-section-4 .header-right a {
@@ -5161,7 +5161,7 @@ img {
   display: inline-block;
   height: 60px;
   line-height: 60px;
-font-size: 11px;
+  font-size: 11px;
   color: #fff;
   padding: 0 28px;
   cursor: pointer;
@@ -5507,8 +5507,8 @@ font-size: 11px;
   margin-right: -5px;
 }
 .banner-search-taber .advanced-search div[class*='col-'] {
- padding-left: 0px;
-padding-right: 2px;
+  padding-left: 0px;
+  padding-right: 2px;
 }
 
 .banner-search-tabs {
@@ -6113,6 +6113,8 @@ padding-right: 2px;
 /*START RANGE SLIDER STYLE*/
 .range-advanced-main {
   margin-bottom: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .range-text p {
@@ -7354,7 +7356,7 @@ padding-right: 2px;
 }
 
 .houzez-module {
- padding: 30px 0;
+  padding: 30px 0;
   /* mini phones and down */
 }
 @media (max-width: 767px) {
@@ -8367,7 +8369,7 @@ div[class*="col-"] > .item-wrap {
 
 .banner-inner {
   position: relative;
- height: 345px !important;
+  height: 345px !important;
   width: 100%;
   background-repeat: no-repeat;
   background-size: 130% auto;
@@ -13908,7 +13910,7 @@ a img.aligncenter {
 .widget-login .login-tabs li {
   background-color: #f9f9f9;
   border: 1px solid #ccc;
-font-size: 13px;
+  font-size: 13px;
   color: #000;
   height: 42px;
   line-height: 42px;
@@ -15063,7 +15065,7 @@ label.success {
 .mc4wp-form-fields .table-list {
   margin-bottom: 15px;
 }
- /* start login page */
+/* start login page */
 
 .tabstyle
 {
@@ -15080,4 +15082,38 @@ label.success {
 {
   color:white;
   font-size: 16px;
+}
+.form-check
+{
+
+}
+.btn-file {
+  position: relative;
+  background: #d70506;
+  width: 100%;
+
+}
+.btn-file:hover {
+  position: relative;
+  background: #d70506;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.btn-group > .btn:first-child {
+  margin-left: 5px;
+  /* margin-top: 5px; */
+  margin-bottom: 5px;
 }
