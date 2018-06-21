@@ -623,54 +623,103 @@
                             </div>
                             <div class="add-tab-row push-padding-bottom">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <div class="form-group">
-                                            <label for="property-type">Type</label>
-                                            <select class="selectpicker" id="property-type" data-live-search="false" data-live-search-style="begins" title="Select">
-                                                <option>Type 1</option>
-                                                <option>Type 2</option>
-                                                <option>Type 3</option>
-                                                <option>Type 4</option>
-                                                <option>Type 5</option>
-                                            </select>
+                                            <label for="property-price">Nombre de Piéce</label>
+                                            <input class="form-control" id="property-price" placeholder="Entrez le nombre de de Pièce">
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-status">Statu</label>
-                                            <select class="selectpicker" id="property-status" data-live-search="false" data-live-search-style="begins" title="Select">
-                                                <option>Type 1</option>
-                                                <option>Type 2</option>
-                                                <option>Type 3</option>
-                                                <option>Type 4</option>
-                                                <option>Type 5</option>
-                                            </select>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="add-tab-row push-padding-bottom">
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <div class="form-group">
+                                            <label for="property-type">Caractéristique générale </label><br/>
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        1 er plan
+                                                    </label>
+                                            <br/>
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        2em plan avec accès voiture
+                                                    </label><br/>
+                                            <label>
+                                                <input type="checkbox">
+                                                2em plan avec accès moto
+                                            </label><br/>
+                                            <label>
+                                                <input type="checkbox">
+                                                2em plan accès piéton
+                                            </label><br/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="property-status">Caractéristique extérieur </label><br/>
+                                            <label>
+                                                <input type="checkbox">
+                                                avec garage
+                                            </label>
+                                            <br/>
+                                            <label>
+                                                <input type="checkbox">
+                                                avec cour
+                                            </label><br/>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="property-status"> Caractéristique intérieur  </label><br/>
+                                            <label>
+                                                <input type="checkbox">
+                                                WC intérieur
+                                            </label>
+                                            <br/>
+                                            <label>
+                                                <input type="checkbox">
+                                                douche intérieure
+                                            </label><br/>
+                                            <label>
+                                                <input type="checkbox">
+                                                cuisine
+                                            </label><br/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                          <!--  <div class="add-tab-row push-padding-bottom">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
                                             <label for="property-price">Prix ​​de l'immobilier</label>
                                             <input class="form-control" id="property-price" placeholder="Entrez votre titre de propriété">
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <div class="form-group">
                                             <label for="property-price-before">Avant l'étiquette de prix</label>
                                             <input class="form-control" id="property-price-before" placeholder="Entrez votre titre de propriété">
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                     <div class="form-group">
                                         <label for="property-price-after">Après l'étiquette de prix</label>
                                         <input class="form-control" id="property-price-after" placeholder="Entrez votre titre de propriété">
                                     </div>
                                 </div>
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <label for="property-price-after">Après l'étiquette de prix</label>
+                                            <input class="form-control" id="property-price-after" placeholder="Entrez votre titre de propriété">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                     <div class="account-block">
@@ -685,7 +734,7 @@
                                         <div class="row">
                                             <div class="col-sm-2">
                                                 <figure class="gallery-thumb">
-                                                    <img src="http://placehold.it/127x127" alt="thumb">
+                                                    <img src="http://placehold.it/127x127" alt="thumb" id="image-0">
                                                     <span class="icon icon-fav"><i class="fa fa-star-o"></i></span>
                                                     <span class="icon icon-delete"><i class="fa fa-trash"></i></span>
                                                     <span class="icon icon-loader"><i class="fa fa-spinner fa-spin"></i></span>
@@ -693,35 +742,35 @@
                                             </div>
                                             <div class="col-sm-2">
                                                 <figure class="gallery-thumb">
-                                                    <img src="http://placehold.it/127x127" alt="thumb">
+                                                    <img src="http://placehold.it/127x127" alt="thumb" id="image-1">
                                                     <span class="icon icon-fav"><i class="fa fa-star-o"></i></span>
                                                     <span class="icon icon-delete"><i class="fa fa-trash"></i></span>
                                                 </figure>
                                             </div>
                                             <div class="col-sm-2">
                                                 <figure class="gallery-thumb">
-                                                    <img src="http://placehold.it/127x127" alt="thumb">
+                                                    <img src="http://placehold.it/127x127" alt="thumb" id="image-2">
                                                     <span class="icon icon-fav"><i class="fa fa-star-o"></i></span>
                                                     <span class="icon icon-delete"><i class="fa fa-trash"></i></span>
                                                 </figure>
                                             </div>
                                             <div class="col-sm-2">
                                                 <figure class="gallery-thumb">
-                                                    <img src="http://placehold.it/127x127" alt="thumb">
+                                                    <img src="http://placehold.it/127x127" alt="thumb" id="image-3">
                                                     <span class="icon icon-fav"><i class="fa fa-star-o"></i></span>
                                                     <span class="icon icon-delete"><i class="fa fa-trash"></i></span>
                                                 </figure>
                                             </div>
                                             <div class="col-sm-2">
                                                 <figure class="gallery-thumb">
-                                                    <img src="http://placehold.it/127x127" alt="thumb">
+                                                    <img src="http://placehold.it/127x127" alt="thumb" id="image-4">
                                                     <span class="icon icon-fav"><i class="fa fa-star-o"></i></span>
                                                     <span class="icon icon-delete"><i class="fa fa-trash"></i></span>
                                                 </figure>
                                             </div>
                                             <div class="col-sm-2">
                                                 <figure class="gallery-thumb">
-                                                    <img src="http://placehold.it/127x127" alt="thumb">
+                                                    <img src="http://placehold.it/127x127" alt="thumb" id="image-5">
                                                     <span class="icon icon-fav"><i class="fa fa-star-o"></i></span>
                                                     <span class="icon icon-delete"><i class="fa fa-trash"></i></span>
                                                 </figure>
@@ -731,7 +780,10 @@
                                     <div class="media-drag-drop">
                                         <h4><i class="fa fa-cloud-upload"></i> Glissez et déposez des images ici</h4>
                                         <h4>or</h4>
-                                        <button class="btn btn-primary">Selectioner l'Images</button>
+                                        <label class="btn btn-default btn-file" style="width:auto">
+                                            Selectioner images <input type="file" class="btn btn-primary btn-block" style="width:auto" id="upload-file-button">
+                                        </label>
+
                                     </div>
                                 </div>
                             </div>
@@ -739,695 +791,705 @@
                     </div>
                     <div class="account-block">
                         <div class="add-title-tab">
-                            <h3>Emplacement de la propriété</h3>
+                            <h3>Localisation</h3>
                             <div class="add-expand"></div>
                         </div>
                         <div class="add-tab-content">
                             <div class="add-tab-row  push-padding-bottom">
                                 <div class="row">
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-4">
                                         <div class="form-group">
-                                            <label for="address">Adresse</label>
+                                            <label for="address">région</label>
                                             <input class="form-control" id="address" placeholder="Entrez votre titre de propriété">
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-4">
                                         <div class="form-group">
-                                            <label for="neighborhood">quartier</label>
+                                            <label for="neighborhood">Ville</label>
                                             <input class="form-control" id="neighborhood" placeholder="Entrez votre titre de propriété">
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="city">Ville</label>
-                                            <input class="form-control" id="city" placeholder="Entrez votre titre de propriété">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="zip">Zip</label>
-                                            <input class="form-control" id="zip" placeholder="Entrez votre titre de propriété">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="countryState">Etats / Pays</label>
-                                            <input class="form-control" id="countryState" placeholder="Entrez votre titre de propriété">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="country">Etats</label>
-                                            <select class="selectpicker" id="country" data-live-search="false" data-live-search-style="begins" title="Select">
-                                                <option>Pays 1</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="add-tab-row">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div id="map">
-                                            <img src="images/add-map-image.png" alt="img">
-                                        </div>
-                                        <button class="btn btn-primary btn-block">Placez l'épingle en utilisant l'adresse de la propriété</button>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="property-map">Latitude Google Maps</label>
-                                            <input class="form-control" id="property-map" placeholder="Entrez votre titre de propriété">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="property-map-long">Longitude Google Maps</label>
-                                            <input class="form-control" id="property-map-long" placeholder="Entrez votre titre de propriété">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="account-block">
-                        <div class="add-title-tab">
-                            <h3>Emplacement de la propriété</h3>
-                            <div class="add-expand"></div>
-                        </div>
-                        <div class="add-tab-content">
-                            <div class="add-tab-row push-padding-bottom">
-                                <div class="row">
                                     <div class="col-sm-4">
                                         <div class="form-group">
-                                            <label for="property-id">propriété ID</label>
-                                            <input class="form-control" id="property-id" placeholder="Entrez ID de la propeiété">
+                                            <label for="neighborhood">Quartier</label>
+                                            <input class="form-control" id="neighborhood" placeholder="Entrez votre titre de propriété">
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-area">Taille de la zone</label>
-                                            <input class="form-control" id="property-area" placeholder="Entrez la taille de la zone de propriété">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-size-prefix">Préfixe de taille</label>
-                                            <input class="form-control" id="property-size-prefix" placeholder="Sq Ft">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-bedrooms">Chambres</label>
-                                            <input class="form-control" id="property-bedrooms" placeholder="Entrez le nombre de chambres">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-bathrooms">Les salles</label>
-                                            <input class="form-control" id="property-bathrooms" placeholder="Entrez le nombre de Salle">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-garage">Garage</label>
-                                            <input class="form-control" id="property-garage" placeholder="Entrez le nombre de garages">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-garage-size">taillr de garage</label>
-                                            <input class="form-control" id="property-garage-size" placeholder="Entrez la Taille du garage">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-year-built">Année de construction</label>
-                                            <div class="input-group input_date">
-                                                <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
-                                                <input class="form-control" id="property-year-built">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
-                                            <label for="property-video">Virtual Tour Video URL</label>
-                                            <input class="form-control" id="property-video" placeholder="YouTube, Vimeo, SWF File and MOV File are supported">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="add-tab-row">
-                                <h4>Détails supplémentaires</h4>
-                                <table class="additional-block">
-                                    <thead>
-                                        <tr>
-                                            <td>&nbsp;</td>
-                                            <td><label>Titre</label></td>
-                                            <td><label>Valeur</label></td>
-                                            <td>&nbsp;</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="ui-sortable">
-                                    <tr>
-                                        <td class="action-field">
-                                            <span class="sort-additional-row ui-sortable-handle"><i class="fa fa-navicon"></i></span>
-                                        </td>
-                                        <td class="field-title">
-                                            <input class="form-control" type="text">
-                                        </td>
-                                        <td>
-                                            <input class="form-control" type="text">
-                                        </td>
-                                        <td class="action-field">
-                                            <span class="remove-additional-row"><i class="fa fa-remove"></i></span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="action-field">
-                                            <span class="sort-additional-row ui-sortable-handle"><i class="fa fa-navicon"></i></span>
-                                        </td>
-                                        <td class="field-title">
-                                            <input class="form-control" type="text">
-                                        </td>
-                                        <td>
-                                            <input class="form-control" type="text">
-                                        </td>
-                                        <td class="action-field">
-                                            <span class="remove-additional-row"><i class="fa fa-remove"></i></span>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                    <tfoot>
-                                    <tr>
-                                        <td></td>
-                                        <td><button class="add-additional-row"><i class="fa fa-plus"></i> Ajouter un nouveau</button></td>
-                                        <td></td>
-                                    </tr>
-                                    </tfoot>
-                                </table>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="account-block">
-                        <div class="add-title-tab">
-                            <h3>Caractéristiques de la propriété</h3>
-                            <div class="add-expand"></div>
-                        </div>
-                        <div class="add-tab-content">
-                            <div class="add-tab-row push-padding-bottom">
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox">
-                                                Fonctionnalité
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox">
-                                                Fonctionnalité
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox">
-                                                Fonctionnalité
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox">
-                                                Fonctionnalité
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox">
-                                                Fonctionnalité
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox">
-                                                Fonctionnalité
-                                            </label>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="account-block">
-                        <div class="add-title-tab">
-                            <h3>Vidéo de propriété</h3>
-                            <div class="add-expand"></div>
-                        </div>
-                        <div class="add-tab-content">
-                            <div class="add-tab-row push-padding-bottom">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="videoUrl">Video URL</label>
-                                            <input class="form-control" id="videoUrl" placeholder="Entrez votre titre de propriété">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="table-list">
-                                            <div class="form-group table-cell full-width" style="padding-right: 8px;">
-                                                <label for="videoImageUrl">Video image URL</label>
-                                                <input class="form-control" id="videoImageUrl" placeholder="Entrez votre titre de propriété">
-                                            </div>
-                                            <div class="table-cell v-align-bottom">
-                                                <button class="btn btn-primary">Télécharger</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="account-block">
-                        <div class="add-title-tab">
-                            <h3>Plans d'étage</h3>
-                            <div class="add-expand"></div>
-                        </div>
-                        <div class="add-tab-content">
-                            <div class="add-tab-row">
-                                <table class="add-sort-table">
-                                    <thead>
-                                        <tr>
-                                            <td class="row-sort"></td>
-                                            <td class="sort-middle">
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-xs-12">
-                                                        <label for="floorPlans">Plans d'étage</label>
-                                                        <select class="selectpicker" id="floorPlans" data-live-search="false" data-live-search-style="begins" title="Disable">
-                                                            <option>Désactiver</option>
-                                                            <option>Activer</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="row-remove"></td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="row-sort">
-                                                <span class="sort"><i class="fa fa-navicon"></i></span>
-                                            </td>
-                                            <td class="sort-middle">
-                                                <div class="sort-inner-block">
-                                                    <div class="row">
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planTitle">Titre du plan</label>
-                                                                <input name="plan-title" type="text" id="planTitle" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planSize">Taille du plan</label>
-                                                                <input name="plan-size" type="text" id="planSize" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planBedrooms">Plan des chambres</label>
-                                                                <input name="plan-bedrooms" type="text" id="planBedrooms" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planBathrooms">Plan des salles</label>
-                                                                <input name="plan-bathrooms" type="text" id="planBathrooms" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planPrice">Plan / Price</label>
-                                                                <input name="plan-price" type="text" id="planPrice" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planImage">Plan / Image</label>
-                                                                <div class="file-upload-block">
-                                                                    <input name="plan-image" type="text" id="planImage" class="form-control">
-                                                                    <button class="btn btn-primary">Select</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 col-xs-12">
-                                                            <label for="planDescription">Plan / Description</label>
-                                                            <textarea name="plan-description" rows="4" id="planDescription" class="form-control"></textarea>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="row-remove">
-                                                <span class="remove"><i class="fa fa-remove"></i></span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="row-sort">
-                                                <span class="sort"><i class="fa fa-navicon"></i></span>
-                                            </td>
-                                            <td class="sort-middle">
-                                                <div class="sort-inner-block">
-                                                    <div class="row">
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planTitle">Plan / Titre</label>
-                                                                <input name="plan-title" type="text" id="planTitle" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planSize">Plan / taille</label>
-                                                                <input name="plan-size" type="text" id="planSize" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planBedrooms">Plan des chambres</label>
-                                                                <input name="plan-bedrooms" type="text" id="planBedrooms" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planBathrooms">Plan des chambres</label>
-                                                                <input name="plan-bathrooms" type="text" id="planBathrooms" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planPrice">Plan / Prix</label>
-                                                                <input name="plan-price" type="text" id="planPrice" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="planImage">Plan / Image</label>
-                                                                <div class="file-upload-block">
-                                                                    <input name="plan-image" type="text" id="planImage" class="form-control">
-                                                                    <button class="btn btn-primary">Select</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12 col-xs-12">
-                                                            <label for="planDescription">Plan / Déscription</label>
-                                                            <textarea name="plan-description" rows="4" id="planDescription" class="form-control"></textarea>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="row-remove">
-                                                <span class="remove"><i class="fa fa-remove"></i></span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <td class="row-sort"></td>
-                                            <td class="sort-middle">
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-xs-12">
-                                                        <button class="btn btn-primary"><i class="fa fa-plus"></i>Ajouter plus</button>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="row-remove"></td>
-                                        </tr>
-                                    </tfoot>
 
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="account-block">
-                        <div class="add-title-tab">
-                            <h3>Multi-unités / sous-propriétés</h3>
-                            <div class="add-expand"></div>
-                        </div>
-                        <div class="add-tab-content">
-                            <div class="add-tab-row">
-                                <table class="add-sort-table">
-                                    <thead>
-                                        <tr>
-                                            <td class="row-sort"></td>
-                                            <td class="sort-middle">
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-xs-12">
-                                                        <label for="multuUnits">Multi-unités / sous-propriétés</label>
-                                                        <select class="selectpicker" id="multuUnits" data-live-search="false" data-live-search-style="begins" title="Disable">
-                                                            <option>Désactiver</option>
-                                                            <option>Activer</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="row-remove"></td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="row-sort">
-                                                <span class="sort"><i class="fa fa-navicon"></i></span>
-                                            </td>
-                                            <td class="sort-middle">
-                                                <div class="sort-inner-block">
-                                                    <div class="row">
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyTitle">Propriété / Titre</label>
-                                                                <input name="plan-title" type="text" id="propertyTitle" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyType">propeiété / Type</label>
-                                                                <input name="plan-size" type="text" id="propertyType" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyBedrooms">Chammbres</label>
-                                                                <input name="plan-bedrooms" type="text" id="propertyBedrooms" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyBathrooms">Salle</label>
-                                                                <input name="plan-bathrooms" type="text" id="propertyBathrooms" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertySize">Taille de la propriété</label>
-                                                                <input name="plan-price" type="text" id="propertySize" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="sizePostfix">Taille / Postfix</label>
-                                                                <input name="plan-image" type="text" id="sizePostfix" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyPrice">propriété / Prix</label>
-                                                                <input name="plan-image" type="text" id="propertyPrice" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <label for="availabilityDate">Date de disponibilité</label>
-                                                            <input name="plan-image" type="text" id="availabilityDate" class="form-control">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="row-remove">
-                                                <span class="remove"><i class="fa fa-remove"></i></span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="row-sort">
-                                                <span class="sort"><i class="fa fa-navicon"></i></span>
-                                            </td>
-                                            <td class="sort-middle">
-                                                <div class="sort-inner-block">
-                                                    <div class="row">
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyTitle">propriété / titre</label>
-                                                                <input name="plan-title" type="text" id="propertyTitle" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyType">Propriété / Type</label>
-                                                                <input name="plan-size" type="text" id="propertyType" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyBedrooms">Chambres</label>
-                                                                <input name="plan-bedrooms" type="text" id="propertyBedrooms" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyBathrooms">Salle</label>
-                                                                <input name="plan-bathrooms" type="text" id="propertyBathrooms" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertySize">Taille de la propriété</label>
-                                                                <input name="plan-price" type="text" id="propertySize" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="sizePostfix">Taille  Postfix</label>
-                                                                <input name="plan-image" type="text" id="sizePostfix" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <div class="form-group">
-                                                                <label for="propertyPrice">Propriété / prix</label>
-                                                                <input name="plan-image" type="text" id="propertyPrice" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6 col-xs-12">
-                                                            <label for="availabilityDate">Date de disponibilité</label>
-                                                            <input name="plan-image" type="text" id="availabilityDate" class="form-control">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="row-remove">
-                                                <span class="remove"><i class="fa fa-remove"></i></span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <td class="row-sort"></td>
-                                            <td class="sort-middle">
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-xs-12">
-                                                        <button class="btn btn-primary"><i class="fa fa-plus"></i>Ajouter plus</button>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="row-remove"></td>
-                                        </tr>
-                                    </tfoot>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="account-block">
-                        <div class="add-title-tab">
-                            <h3>Attachement</h3>
-                            <div class="add-expand"></div>
-                        </div>
-                        <div class="add-tab-content">
                             <div class="add-tab-row push-padding-bottom">
-                                <div class="add-attachment">
-                                    <p>Attachement</p>
-                                    <div class="attach-list">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <div class="attach-icon"><i class="fa fa-file-o"></i></div>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading"><a href="#">filename.pdf</a></h4>
-                                                <ul class="attach-actions">
-                                                    <li><a href=""><i class="fa fa-edit"></i> Editer</a></li>
-                                                    <li><a href=""><i class="fa fa-remove"></i>Suprimer</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <div class="attach-icon"><i class="fa fa-file-o"></i></div>
-                                            </div>
-                                            <div class="media-body">
-                                                <h4 class="media-heading"><a href="#">filename.pdf</a></h4>
-                                                <ul class="attach-actions">
-                                                    <li><a href=""><i class="fa fa-edit"></i> Editer</a></li>
-                                                    <li><a href=""><i class="fa fa-remove"></i>Suprimer</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-primary">Ajouter media</button>
-                                    <p>Vous pouvez joindre des fichiers PDF, des images cartographiques ou d'autres documents pour fournir plus de détails liés à la propriété.</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="account-block">
-                        <div class="add-title-tab">
-                            <h3>Informations sur l'agent</h3>
-                            <div class="add-expand"></div>
-                        </div>
-                        <div class="add-tab-content">
-                            <div class="add-tab-row push-padding-bottom">
-                                <p>Que montrer dans la boîte d'information de l'agent?</p>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio">
-                                        Aucun <small>(La boîte d'information de l'agent ne s'affichera pas)</small>
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio">
-                                        Mes informations de profil <small>(Vous pouvez ajouter vos informations <a href="#"> ici </a>)</small>
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio">
-                                        Afficher les informations d'un agent
-                                    </label>
-                                </div>
                                 <div class="row">
                                     <div class="col-sm-3">
                                         <div class="form-group">
-                                            <select class="selectpicker" id="status" data-live-search="false" data-live-search-style="begins" title="Hasina Rakoto">
-                                                <option>Hasina rakoto</option>
-                                            </select>
+                                            <label for="property-price">Statu</label>
+                                            <input class="form-control" id="property-price" placeholder="Entrez le nombre de de Pièce">
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="account-block text-right">
-                        <button class="btn btn-primary">Envoyer la propriété</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-    </section>
-    <!--end section page body-->
+
+                            <div class="add-tab-row push-padding-bottom">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <label for="property-price">Prix de la propriété</label>
+                                            <input class="form-control" id="property-price" placeholder="Entrez le nombre de de Pièce">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--  <div class="add-tab-row">
+                                  <div class="row">
+                                      <div class="col-sm-6">
+                                          <div id="map">
+                                              <img src="images/add-map-image.png" alt="img">
+                                          </div>
+                                          <button class="btn btn-primary btn-block">Placez l'épingle en utilisant l'adresse de la propriété</button>
+                                      </div>
+                                      <div class="col-sm-6">
+                                          <div class="form-group">
+                                              <label for="property-map">Latitude Google Maps</label>
+                                              <input class="form-control" id="property-map" placeholder="Entrez votre titre de propriété">
+                                          </div>
+                                          <div class="form-group">
+                                              <label for="property-map-long">Longitude Google Maps</label>
+                                              <input class="form-control" id="property-map-long" placeholder="Entrez votre titre de propriété">
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="account-block">
+                          <div class="add-title-tab">
+                              <h3>Emplacement de la propriété</h3>
+                              <div class="add-expand"></div>
+                          </div>
+                          <div class="add-tab-content">
+                              <div class="add-tab-row push-padding-bottom">
+                                  <div class="row">
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-id">propriété ID</label>
+                                              <input class="form-control" id="property-id" placeholder="Entrez ID de la propeiété">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-area">Taille de la zone</label>
+                                              <input class="form-control" id="property-area" placeholder="Entrez la taille de la zone de propriété">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-size-prefix">Préfixe de taille</label>
+                                              <input class="form-control" id="property-size-prefix" placeholder="Sq Ft">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-bedrooms">Chambres</label>
+                                              <input class="form-control" id="property-bedrooms" placeholder="Entrez le nombre de chambres">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-bathrooms">Les salles</label>
+                                              <input class="form-control" id="property-bathrooms" placeholder="Entrez le nombre de Salle">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-garage">Garage</label>
+                                              <input class="form-control" id="property-garage" placeholder="Entrez le nombre de garages">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-garage-size">taillr de garage</label>
+                                              <input class="form-control" id="property-garage-size" placeholder="Entrez la Taille du garage">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-year-built">Année de construction</label>
+                                              <div class="input-group input_date">
+                                                  <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
+                                                  <input class="form-control" id="property-year-built">
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <div class="form-group">
+                                              <label for="property-video">Virtual Tour Video URL</label>
+                                              <input class="form-control" id="property-video" placeholder="YouTube, Vimeo, SWF File and MOV File are supported">
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="add-tab-row">
+                                  <h4>Détails supplémentaires</h4>
+                                  <table class="additional-block">
+                                      <thead>
+                                          <tr>
+                                              <td>&nbsp;</td>
+                                              <td><label>Titre</label></td>
+                                              <td><label>Valeur</label></td>
+                                              <td>&nbsp;</td>
+                                          </tr>
+                                      </thead>
+                                      <tbody class="ui-sortable">
+                                      <tr>
+                                          <td class="action-field">
+                                              <span class="sort-additional-row ui-sortable-handle"><i class="fa fa-navicon"></i></span>
+                                          </td>
+                                          <td class="field-title">
+                                              <input class="form-control" type="text">
+                                          </td>
+                                          <td>
+                                              <input class="form-control" type="text">
+                                          </td>
+                                          <td class="action-field">
+                                              <span class="remove-additional-row"><i class="fa fa-remove"></i></span>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td class="action-field">
+                                              <span class="sort-additional-row ui-sortable-handle"><i class="fa fa-navicon"></i></span>
+                                          </td>
+                                          <td class="field-title">
+                                              <input class="form-control" type="text">
+                                          </td>
+                                          <td>
+                                              <input class="form-control" type="text">
+                                          </td>
+                                          <td class="action-field">
+                                              <span class="remove-additional-row"><i class="fa fa-remove"></i></span>
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                      <tfoot>
+                                      <tr>
+                                          <td></td>
+                                          <td><button class="add-additional-row"><i class="fa fa-plus"></i> Ajouter un nouveau</button></td>
+                                          <td></td>
+                                      </tr>
+                                      </tfoot>
+                                  </table>
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="account-block">
+                          <div class="add-title-tab">
+                              <h3>Caractéristiques de la propriété</h3>
+                              <div class="add-expand"></div>
+                          </div>
+                          <div class="add-tab-content">
+                              <div class="add-tab-row push-padding-bottom">
+                                  <div class="row">
+                                      <div class="col-sm-2">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox">
+                                                  Fonctionnalité
+                                              </label>
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-2">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox">
+                                                  Fonctionnalité
+                                              </label>
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-2">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox">
+                                                  Fonctionnalité
+                                              </label>
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-2">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox">
+                                                  Fonctionnalité
+                                              </label>
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-2">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox">
+                                                  Fonctionnalité
+                                              </label>
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-2">
+                                          <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox">
+                                                  Fonctionnalité
+                                              </label>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="account-block">
+                          <div class="add-title-tab">
+                              <h3>Vidéo de propriété</h3>
+                              <div class="add-expand"></div>
+                          </div>
+                          <div class="add-tab-content">
+                              <div class="add-tab-row push-padding-bottom">
+                                  <div class="row">
+                                      <div class="col-sm-6">
+                                          <div class="form-group">
+                                              <label for="videoUrl">Video URL</label>
+                                              <input class="form-control" id="videoUrl" placeholder="Entrez votre titre de propriété">
+                                          </div>
+                                      </div>
+                                      <div class="col-sm-6">
+                                          <div class="table-list">
+                                              <div class="form-group table-cell full-width" style="padding-right: 8px;">
+                                                  <label for="videoImageUrl">Video image URL</label>
+                                                  <input class="form-control" id="videoImageUrl" placeholder="Entrez votre titre de propriété">
+                                              </div>
+                                              <div class="table-cell v-align-bottom">
+                                                  <button class="btn btn-primary">Télécharger</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="account-block">
+                          <div class="add-title-tab">
+                              <h3>Plans d'étage</h3>
+                              <div class="add-expand"></div>
+                          </div>
+                          <div class="add-tab-content">
+                              <div class="add-tab-row">
+                                  <table class="add-sort-table">
+                                      <thead>
+                                          <tr>
+                                              <td class="row-sort"></td>
+                                              <td class="sort-middle">
+                                                  <div class="row">
+                                                      <div class="col-sm-12 col-xs-12">
+                                                          <label for="floorPlans">Plans d'étage</label>
+                                                          <select class="selectpicker" id="floorPlans" data-live-search="false" data-live-search-style="begins" title="Disable">
+                                                              <option>Désactiver</option>
+                                                              <option>Activer</option>
+                                                          </select>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                              <td class="row-remove"></td>
+                                          </tr>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td class="row-sort">
+                                                  <span class="sort"><i class="fa fa-navicon"></i></span>
+                                              </td>
+                                              <td class="sort-middle">
+                                                  <div class="sort-inner-block">
+                                                      <div class="row">
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planTitle">Titre du plan</label>
+                                                                  <input name="plan-title" type="text" id="planTitle" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planSize">Taille du plan</label>
+                                                                  <input name="plan-size" type="text" id="planSize" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planBedrooms">Plan des chambres</label>
+                                                                  <input name="plan-bedrooms" type="text" id="planBedrooms" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planBathrooms">Plan des salles</label>
+                                                                  <input name="plan-bathrooms" type="text" id="planBathrooms" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planPrice">Plan / Price</label>
+                                                                  <input name="plan-price" type="text" id="planPrice" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planImage">Plan / Image</label>
+                                                                  <div class="file-upload-block">
+                                                                      <input name="plan-image" type="text" id="planImage" class="form-control">
+                                                                      <button class="btn btn-primary">Select</button>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-12 col-xs-12">
+                                                              <label for="planDescription">Plan / Description</label>
+                                                              <textarea name="plan-description" rows="4" id="planDescription" class="form-control"></textarea>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                              <td class="row-remove">
+                                                  <span class="remove"><i class="fa fa-remove"></i></span>
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td class="row-sort">
+                                                  <span class="sort"><i class="fa fa-navicon"></i></span>
+                                              </td>
+                                              <td class="sort-middle">
+                                                  <div class="sort-inner-block">
+                                                      <div class="row">
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planTitle">Plan / Titre</label>
+                                                                  <input name="plan-title" type="text" id="planTitle" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planSize">Plan / taille</label>
+                                                                  <input name="plan-size" type="text" id="planSize" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planBedrooms">Plan des chambres</label>
+                                                                  <input name="plan-bedrooms" type="text" id="planBedrooms" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planBathrooms">Plan des chambres</label>
+                                                                  <input name="plan-bathrooms" type="text" id="planBathrooms" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planPrice">Plan / Prix</label>
+                                                                  <input name="plan-price" type="text" id="planPrice" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="planImage">Plan / Image</label>
+                                                                  <div class="file-upload-block">
+                                                                      <input name="plan-image" type="text" id="planImage" class="form-control">
+                                                                      <button class="btn btn-primary">Select</button>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-12 col-xs-12">
+                                                              <label for="planDescription">Plan / Déscription</label>
+                                                              <textarea name="plan-description" rows="4" id="planDescription" class="form-control"></textarea>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                              <td class="row-remove">
+                                                  <span class="remove"><i class="fa fa-remove"></i></span>
+                                              </td>
+                                          </tr>
+                                      </tbody>
+                                      <tfoot>
+                                          <tr>
+                                              <td class="row-sort"></td>
+                                              <td class="sort-middle">
+                                                  <div class="row">
+                                                      <div class="col-sm-12 col-xs-12">
+                                                          <button class="btn btn-primary"><i class="fa fa-plus"></i>Ajouter plus</button>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                              <td class="row-remove"></td>
+                                          </tr>
+                                      </tfoot>
+
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="account-block">
+                          <div class="add-title-tab">
+                              <h3>Multi-unités / sous-propriétés</h3>
+                              <div class="add-expand"></div>
+                          </div>
+                          <div class="add-tab-content">
+                              <div class="add-tab-row">
+                                  <table class="add-sort-table">
+                                      <thead>
+                                          <tr>
+                                              <td class="row-sort"></td>
+                                              <td class="sort-middle">
+                                                  <div class="row">
+                                                      <div class="col-sm-12 col-xs-12">
+                                                          <label for="multuUnits">Multi-unités / sous-propriétés</label>
+                                                          <select class="selectpicker" id="multuUnits" data-live-search="false" data-live-search-style="begins" title="Disable">
+                                                              <option>Désactiver</option>
+                                                              <option>Activer</option>
+                                                          </select>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                              <td class="row-remove"></td>
+                                          </tr>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td class="row-sort">
+                                                  <span class="sort"><i class="fa fa-navicon"></i></span>
+                                              </td>
+                                              <td class="sort-middle">
+                                                  <div class="sort-inner-block">
+                                                      <div class="row">
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyTitle">Propriété / Titre</label>
+                                                                  <input name="plan-title" type="text" id="propertyTitle" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyType">propeiété / Type</label>
+                                                                  <input name="plan-size" type="text" id="propertyType" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyBedrooms">Chammbres</label>
+                                                                  <input name="plan-bedrooms" type="text" id="propertyBedrooms" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyBathrooms">Salle</label>
+                                                                  <input name="plan-bathrooms" type="text" id="propertyBathrooms" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertySize">Taille de la propriété</label>
+                                                                  <input name="plan-price" type="text" id="propertySize" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="sizePostfix">Taille / Postfix</label>
+                                                                  <input name="plan-image" type="text" id="sizePostfix" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyPrice">propriété / Prix</label>
+                                                                  <input name="plan-image" type="text" id="propertyPrice" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <label for="availabilityDate">Date de disponibilité</label>
+                                                              <input name="plan-image" type="text" id="availabilityDate" class="form-control">
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                              <td class="row-remove">
+                                                  <span class="remove"><i class="fa fa-remove"></i></span>
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td class="row-sort">
+                                                  <span class="sort"><i class="fa fa-navicon"></i></span>
+                                              </td>
+                                              <td class="sort-middle">
+                                                  <div class="sort-inner-block">
+                                                      <div class="row">
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyTitle">propriété / titre</label>
+                                                                  <input name="plan-title" type="text" id="propertyTitle" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyType">Propriété / Type</label>
+                                                                  <input name="plan-size" type="text" id="propertyType" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyBedrooms">Chambres</label>
+                                                                  <input name="plan-bedrooms" type="text" id="propertyBedrooms" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyBathrooms">Salle</label>
+                                                                  <input name="plan-bathrooms" type="text" id="propertyBathrooms" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertySize">Taille de la propriété</label>
+                                                                  <input name="plan-price" type="text" id="propertySize" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="sizePostfix">Taille  Postfix</label>
+                                                                  <input name="plan-image" type="text" id="sizePostfix" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <div class="form-group">
+                                                                  <label for="propertyPrice">Propriété / prix</label>
+                                                                  <input name="plan-image" type="text" id="propertyPrice" class="form-control">
+                                                              </div>
+                                                          </div>
+                                                          <div class="col-sm-6 col-xs-12">
+                                                              <label for="availabilityDate">Date de disponibilité</label>
+                                                              <input name="plan-image" type="text" id="availabilityDate" class="form-control">
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                              <td class="row-remove">
+                                                  <span class="remove"><i class="fa fa-remove"></i></span>
+                                              </td>
+                                          </tr>
+                                      </tbody>
+                                      <tfoot>
+                                          <tr>
+                                              <td class="row-sort"></td>
+                                              <td class="sort-middle">
+                                                  <div class="row">
+                                                      <div class="col-sm-12 col-xs-12">
+                                                          <button class="btn btn-primary"><i class="fa fa-plus"></i>Ajouter plus</button>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                              <td class="row-remove"></td>
+                                          </tr>
+                                      </tfoot>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="account-block">
+                          <div class="add-title-tab">
+                              <h3>Attachement</h3>
+                              <div class="add-expand"></div>
+                          </div>
+                          <div class="add-tab-content">
+                              <div class="add-tab-row push-padding-bottom">
+                                  <div class="add-attachment">
+                                      <p>Attachement</p>
+                                      <div class="attach-list">
+                                          <div class="media">
+                                              <div class="media-left">
+                                                  <div class="attach-icon"><i class="fa fa-file-o"></i></div>
+                                              </div>
+                                              <div class="media-body">
+                                                  <h4 class="media-heading"><a href="#">filename.pdf</a></h4>
+                                                  <ul class="attach-actions">
+                                                      <li><a href=""><i class="fa fa-edit"></i> Editer</a></li>
+                                                      <li><a href=""><i class="fa fa-remove"></i>Suprimer</a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                          <div class="media">
+                                              <div class="media-left">
+                                                  <div class="attach-icon"><i class="fa fa-file-o"></i></div>
+                                              </div>
+                                              <div class="media-body">
+                                                  <h4 class="media-heading"><a href="#">filename.pdf</a></h4>
+                                                  <ul class="attach-actions">
+                                                      <li><a href=""><i class="fa fa-edit"></i> Editer</a></li>
+                                                      <li><a href=""><i class="fa fa-remove"></i>Suprimer</a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <button class="btn btn-primary">Ajouter media</button>
+                                      <p>Vous pouvez joindre des fichiers PDF, des images cartographiques ou d'autres documents pour fournir plus de détails liés à la propriété.</p>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="account-block">
+                          <div class="add-title-tab">
+                              <h3>Informations sur l'agent</h3>
+                              <div class="add-expand"></div>
+                          </div>
+                          <div class="add-tab-content">
+                              <div class="add-tab-row push-padding-bottom">
+                                  <p>Que montrer dans la boîte d'information de l'agent?</p>
+                                  <div class="radio">
+                                      <label>
+                                          <input type="radio">
+                                          Aucun <small>(La boîte d'information de l'agent ne s'affichera pas)</small>
+                                      </label>
+                                  </div>
+                                  <div class="radio">
+                                      <label>
+                                          <input type="radio">
+                                          Mes informations de profil <small>(Vous pouvez ajouter vos informations <a href="#"> ici </a>)</small>
+                                      </label>
+                                  </div>
+                                  <div class="radio">
+                                      <label>
+                                          <input type="radio">
+                                          Afficher les informations d'un agent
+                                      </label>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-sm-3">
+                                          <div class="form-group">
+                                              <select class="selectpicker" id="status" data-live-search="false" data-live-search-style="begins" title="Hasina Rakoto">
+                                                  <option>Hasina rakoto</option>
+                                              </select>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                            -->
+
+                      <div class="account-block text-right" style="margin-bottom: 25px">
+                          <br/>
+                          <button class="btn btn-primary">Envoyer la propriété</button>
+                          <br/>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <!--end section page body-->
 
     </section>
     <!--end section page body-->

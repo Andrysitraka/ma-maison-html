@@ -442,18 +442,18 @@ var nice = false;
     /* ------------------------------------------------------------------------ */
     /*  Date picker
      /* ------------------------------------------------------------------------ */
-    if($('.input_date').length > 0) {
-        $('.input_date').datetimepicker({
-            format: 'YYYY-MM-DD',//'DD/MM/YYYY',
-            icons: {
-                time: "fa fa-clock-o",
-                date: "fa fa-calendar",
-                up: "fa fa-arrow-up",
-                down: "fa fa-arrow-down",
-                left: "fa fa-arrow-left"
-            }
-        });
-    }
+    // if($('.input_date').length > 0) {
+    //     $('.input_date').datetimepicker({
+    //         format: 'YYYY-MM-DD',//'DD/MM/YYYY',
+    //         icons: {
+    //             time: "fa fa-clock-o",
+    //             date: "fa fa-calendar",
+    //             up: "fa fa-arrow-up",
+    //             down: "fa fa-arrow-down",
+    //             left: "fa fa-arrow-left"
+    //         }
+    //     });
+    // }
 
     /* ------------------------------------------------------------------------
      /*  parallax
@@ -1852,6 +1852,33 @@ $(document).ready(function() {
          }, 'json');
          });*/
     }
+
+    // file uploaded
+
+    var nbrImage = 0;
+
+    function readURL(input) {
+        if(nbrImage == 6){
+            nbrImage = 0;
+        }
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                $('#image-'+(nbrImage-1)).attr('src', e.target.result);
+                if((nbrImage-1) == 5 ){
+                    $('#upload-file-button').attr('disabled','disabled');
+                }
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+        nbrImage = nbrImage +1;
+    }
+
+    $("#upload-file-button").change(function() {
+        readURL(this);
+    });
 
 });
 /* fuction forcotroller page momcompte */
